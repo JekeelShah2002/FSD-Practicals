@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mann_Chandarana_20cs011_Practical-3B</title>
+</head>
+
+<body style="background-color: rgba(104, 193, 94, 0.803);">
+    <center>
+        <h1 style="margin-top: 25px; margin-bottom: 50px;">Practical 3B</h1>
+        <p style="font-size: 22px;">View Developer tools or use Visual Studio Code console for output.</p>
+    </center>
+
+    <script>
+        class Student {
+            constructor(rollno, first_name, last_name) {
+                this.rollno = rollno;
+                this.first_name = first_name;
+                this.last_name = last_name;
+            }
+
+            setFullName(f_name, l_name) {
+                this.first_name = f_name;
+                this.last_name = l_name;
+            }
+
+            printFullName() {
+                console.log(this.first_name + " " + s1.last_name);
+            }
+        }
+
+        var s1 = new Student('20CS080', 'Jekeel', 'Shah')
+        s1.printFullName();
+
+        s1.setFullName('Mayur', 'Shah');
+        s1.printFullName();
+    </script>
+</body>
+
+</html>
