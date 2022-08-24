@@ -1,2 +1,3 @@
-# FSD-Practicals-
+# FSD-Practicals
+
 Full Stack Web Development Practicals
