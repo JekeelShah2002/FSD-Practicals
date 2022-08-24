@@ -1,0 +1,20 @@
+.me-auto{
+            color: rgb(0, 229, 46);
+}
+.nav-link{
+            color:aliceblue;
+}
+.nav-link:hover{
+            color:rgb(54, 236, 78);
+}
+.navbar{
+            background-color: #262c7c;
+            z-index:100;
+}
+.navbar-brand{
+            color: aliceblue;
+            font-weight: bold;
+}
+.navbar-brand:hover{
+            color: rgb(9, 184, 50);
+}
